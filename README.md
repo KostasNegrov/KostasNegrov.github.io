@@ -1,4 +1,4 @@
 # Портфолио
 ## Негров Константин
 
-![mountains](resumeNA/images/photo_github.png "Пейзаж с горами")                     [Посмотреть](https://kostasnegrov.github.io/resumeNA/ "Описание")
+![mountains](resumeNA/images/photo_github.png "privew")                     [Посмотреть](https://kostasnegrov.github.io/resumeNA/ "Описание")
