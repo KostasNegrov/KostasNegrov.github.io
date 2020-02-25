@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Solaris</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<script defer src="js/all.min.js"></script>
+
+</head>
+
+<body>	
+
+  <div class="loader">
+    <div class="loader-wrap">
+      <div class="l_main">
+      <div class="l_square"><span></span><span></span><span></span></div>
+      <div class="l_square"><span></span><span></span><span></span></div>
+      <div class="l_square"><span></span><span></span><span></span></div>
+      <div class="l_square"><span></span><span></span><span></span></div>
+    </div>
+    </div>
+    
+  </div>
+	<!-- ======================
+				Section Header
+	===========================-->
+	<header id="header" class="header">		
+		<div class="header__top-wrap">
+			<div class="container">
+				<div class="header__top">
+					<div class="header__logo">
+						<a href="#" class="header__link">
+							<img class="header__img" src="images/header-logo.png" alt="Логотип компании" >
+							<p class="header__logo--title">Solaris<span class="header__logo--subtitle">Энергия солнца</span></p>
+						</a>
+					</div><!-- header__logo -->
+					<ul class="header__contact">
+						<li class="header__item">					
+							<p class="header__navigation header__text">г.Москва<span class="header__text--litl">Кутузовский пр-т д.132</span></p>
+						</li>
+						<li class="header__item">						
+							<p class="header__mail header__text">sunenergy@gmail.com<span class="header__text--litl">время работы: пн - пт, 9:00 - 18:00</span></p>
+						</li>
+						<li class="header__item">						
+							<p class="header__phone header__text">+7 (499) 1111 22 99<span class="header__text--litl">звонок бесплатный</span></p>
+						</li>
+					</ul><!-- header__contact -->
+				</div><!-- header__top -->
+			</div>
+		</div>
+		<div id="header__bottom-wrap" class="header__bottom-wrap">
+			<div class="container">
+				<div id="header__bottom" class="header__bottom">
+					<nav id="menu" class="header__nav">
+						<ul  class="header__menu menu">
+							<li class="menu__element active"><a class="menu__link" href="#">Главная</a></li>
+							<li class="menu__element"><a class="menu__link" href="#">Магазин</a>
+								<ul class="menu__list">
+									<li><a href="#">Модульное оборудование</a></li>
+									<li><a href="#">Электрические шкафы</a></li>
+									<li><a href="#">Трансформаторы</a></li>
+									<li><a href="#">Кабельная продукция</a></li>
+									<li><a href="#">Освещение</a></li>
+									<li><a href="#">Электроника</a></li>
+								</ul>
+							</li>
+							<li class="menu__element"><a class="menu__link" href="#">Услуги</a>
+								<ul class="menu__list">
+									<li><a href="#">Установка ветрогенераторов</a></li>
+									<li><a href="#">Установка солнечных пенелей</a></li>
+									<li><a href="#">Металлконстукции</a></li>
+									<li><a href="#">Электромонтаж</a></li>
+									<li><a href="#">Электроизмерения</a></li>
+								</ul>							
+							</li>
+							<li class="menu__element"><a class="menu__link" href="#">Проекты</a></li>
+							<li class="menu__element"><a class="menu__link" href="#">Новости</a></li>
+							<li class="menu__element"><a class="menu__link" href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="header__right-box">
+						<form class="header__search">
+							<input class="header__input" type="text" placeholder="Искать здесь...">
+							<button class="header__search-btn" type="submit"></button>
+						</form>						
+						<div class="header__hamburger">
+							<a href="#my-menu" class="hamburger hamburger--emphatic" type="button">
+								<span class="hamburger-box">
+									<span class="hamburger-inner"></span>
+								</span>
+							</a>	
+							
+						</div>
+						<button class="header__btn btn">Получить бесплатную консультацию</buttom>
+					</div>
+				</div>	<!-- header__bottom -->
+			</div> 
+		</div>	<!-- header__bottom-wrap -->
+	</header>
+
+	<!-- ======================
+				Section Intro
+	===========================-->
+	<section class="intro" id="intro">
+		<div class="slider-pro" id="intro-slider">
+			<div class="sp-slides">
+				<!-- Slide 1 -->
+				<div class="sp-slide">
+					<div class="container">
+						<h1 class="intro__title sp-layer" data-show-transition="right" data-hide-transition="right" data-show-delay="1100"
+							data-hide-delay="200" data-vertical="28%" data-horizontal="calc(1920px - 21)%">Солнечные панели</h1>
+						<p class="intro__paragraph sp-layer" data-show-transition="right" data-show-delay="900" data-hide-transition="right"
+							data-vertical="38%" data-horizontal="calc(1920px - 21)%">Сохрани природу - <br> используй энергию <span
+								class="intro__paragraph--big">солнца</span></p>
+						<button class="intro__btn btn sp-layer" data-show-transition="up" data-show-delay="900" data-hide-transition="down"
+							data-vertical="68%" data-horizontal="calc(1920px - 21)%">Узнать больше</button>
+					</div>
+					<img class="sp-image" src="images/intro-bg1.jpg" />
+				</div>
+		
+				<!-- Slide 2 -->
+				<div class="sp-slide">
+					<div class="container">
+						<h1 class="intro__title sp-layer" data-show-transition="right" data-hide-transition="right" data-show-delay="1100"
+							data-hide-delay="200" data-vertical="28%" data-horizontal="calc(1920px - 21)%">Ветрогенераторы</h1>
+						<p class="intro__paragraph sp-layer" data-show-transition="right" data-show-delay="900" data-hide-transition="right"
+							data-vertical="38%" data-horizontal="calc(1920px - 21)%">Альтернативная энергия - <br> будущее нашей <span
+								class="intro__paragraph--big">планеты</span></p>
+						<button class="intro__btn btn sp-layer" data-show-transition="up" data-show-delay="900" data-hide-transition="down"
+							data-vertical="68%" data-horizontal="calc(1920px - 21)%">Узнать больше</button>
+					</div>
+					<img class="sp-image" src="images/intro-bg2.jpg" />
+				</div>				
+			</div>
+		</div>		
+	</section>
+
+	<!-- ======================
+				Section Advatages
+	===========================-->
+	<section id="advatages" class="advatages">
+		<div class="container">
+			<div class="advatages__wrap">
+				<h2 class="advatages__title">Преимущества</h2>
+				<ul class="advatages__list">
+					<li class="advatages__item">
+						<div class="advatages__img">
+							<svg class="advatages__svg">
+								<use xlink:href="images/symbol/sprite.svg#svg--intro-bottom-phone"></use>
+							</svg>
+						</div> <!-- advatages__img -->
+						<div class="advatages__description">
+							<p class="advatages__subtitle">Поддержка 24/7</p>
+							<p class="advatages__text">Круглосуточный сервисный центр</p>
+						</div>
+					</li>
+					<li class="advatages__item">
+						<div class="advatages__img">
+							<svg class="advatages__svg">
+								<use xlink:href="images/symbol/sprite.svg#svg--intro-bottom-heard"></use>
+							</svg>
+						</div> <!-- advatages__img -->
+						<div class="advatages__description">
+							<p class="advatages__subtitle">Доверие клиентов</p>
+							<p class="advatages__text">Высокий кредит доверия клиентов</p>
+						</div>
+					</li>
+					<li class="advatages__item">
+						<div class="advatages__img">
+							<svg class="advatages__svg">
+								<use xlink:href="images/symbol/sprite.svg#svg--intro-bottom-user"></use>
+							</svg>
+						</div> <!-- advatages__img -->
+						<div class="advatages__description">
+							<p class="advatages__subtitle">Опытные специалисты</p>
+							<p class="advatages__text">25 лет безупречной работы</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- ======================
+				Section Story
+	===========================-->
+	<section id="story" class="story">
+		<div class="container">
+			<div class="story__wrap">
+				<article class="story__left">
+					<h2 class="story__title project__title">Наша история</h2>
+					<p class="story__subtitle project__subtitle">Вот уже 25 лет мы делаем то-что получается у нас больше всего</p>
+					<p class="story__text">Альтернативные источники энергии – это обычные природные явления, неисчерпаемые ресурсы, которые вырабатываются
+					естественным образом. Такая энергия ещё называется регенеративной или «зелёной».</p>
+					<ul class="story__list">
+						<li class="story__item">Соотношение цена качество</li>
+						<li class="story__item">Огромный опыт монтажных работ</li>
+						<li class="story__item">Готовая сопроводительная документация</li>
+						<li class="story__item">Работаем по всей России</li>
+					</ul>
+					<button class="story__btn">Узнать больше</button>
+				</article><!-- story__left -->
+				
+				<div class="story__right">
+					<div class="story__decorative">
+						<div class="story__img">
+							<svg class="story__svg">
+								<use xlink:href="images/symbol/sprite.svg#svg--history-icon"></use>
+							</svg>
+						</div> <!-- story__img -->
+						<p class="story__year">25 лет<span class="story__experience">Безупречной работы</span></p>						
+					</div>
+				</div> <!-- story__right -->
+			</div><!-- story__wrap -->
+		</div>
+	</section>
+	
+
+	<!-- ======================
+			Section services
+	===========================-->
+	<section id="services" class="services">
+		<div class="container">
+			<div class="services__intro">
+				<h2 class="services__title project__title">Наши услуги</h2>
+				<p class="services__subtitle project__subtitle">Мы выполняем работы от закладки фундамента до введения объкта в эксплуатацию</p>
+			</div>
+			<!-- services__intro -->
+			<ul class="services__cards">
+				<li class="services__element">
+					<div class="services__img">
+						<svg class="services__svg">
+							<use xlink:href="images/symbol/sprite.svg#svg--services1"></use>
+						</svg>
+					</div> <!-- story__img -->
+					<h4 class="services__name">Ветроэнергетика</h4>
+					<p class="services__description">Ветровые станции помогают преобразовывать ветер в электрическую, тепловую и механическую энергию...</p>
+					<a href="#" class="services__link project__link">Подробнее</a>
+				</li><!-- services__element" -->
+
+				<li class="services__element">
+					<div class="services__img">
+						<svg class="services__svg">
+							<use xlink:href="images/symbol/sprite.svg#svg--services2"></use>
+						</svg>
+					</div> <!-- story__img -->
+					<h4 class="services__name">Солнечная энергия</h4>
+					<p class="services__description">Один из самых мощных видов альтернативных источников энергии. Чаще всего её преобразуют в электрическую...</p>
+					<a href="#" class="services__link project__link">Подробнее</a>
+				</li><!-- services__element" -->
+
+				<li class="services__element">
+					<div class="services__img">
+						<svg class="services__svg">
+							<use xlink:href="images/symbol/sprite.svg#svg--services3"></use>
+						</svg>
+					</div> <!-- story__img -->
+					<h4 class="services__name">Электроизмерения</h4>
+					<p class="services__description">Мы проводим контроль и испытание электрического оборудования и электросетей различной мощности...</p>
+					<a href="#" class="services__link project__link">Подробнее</a>
+				</li><!-- services__element" -->
+
+				<li class="services__element">
+					<div class="services__img">
+						<svg class="services__svg">
+							<use xlink:href="images/symbol/sprite.svg#svg--services4"></use>
+						</svg>
+					</div> <!-- story__img -->
+					<h4 class="services__name">Электромонтаж</h4>
+					<p class="services__description">Полный комплекс операций, позволяющий обеспечить оптимальное функционирование объекта...</p>
+					<a href="#" class="services__link project__link">Подробнее</a>
+				</li><!-- services__element" -->
+
+			</ul>
+			<!-- services__cards -->
+
+		</div>
+
+
+	</section>
+
+	<!-- ======================
+			Section Team
+	===========================-->
+	<section id="team" class="team">
+		<div class="team__wrap">
+			<div class="team__video">
+				<div class="team__play-btn">
+					<a href="https://www.youtube.com/watch?v=5-bhgygTEco" class="venobox play-btn" data-vbtype="video"
+						data-autoplay="true"></a>
+				</div>
+			</div><!-- team__video -->
+			<div class="team__information">
+				<div class="team__block">
+					<article class="team__left">
+						<h2 class="team__title project__title">Наша команда</h2>
+						<p class="project__subtitle team__subtitle">В нашей команде работают только первоклассные специалисты</p>
+						<p class="team__text">Квалифицированный персонал – гордость и главное конкурентное преимущество нашей компании. В нашей команде работаютспециалисты с высоким уровнем квалификации и большим опытом работы.	</p> <br>
+						<p class="team__text">Недостаточно просто иметь знания, важно уметь применять их на практике и не останавливаться на достигнутом. В нашей	компании налажена система интеллектуального менеджмента, что является необходимой составляющей выпуска продукции
+						высокого качества. Грамотное распределение полномочий, ответственность за принятые решения и эффективное планирование
+						работы позволяют нам предоставлять услуги на высоком уровне.</p>
+						
+						<button class="team__btn">Написать нам</button>
+					</article><!-- team__left -->				
+			</div><!-- team__block -->
+		</div><!-- team__wrap -->
+	</section>
+
+	<!-- ======================
+			Section Achievements
+	===========================-->
+	<section id="achievements" class="achievements">
+		<h2 class="achievements__title">Наши достижения</h2>
+		<div class="container">
+
+			<div class="achievements__wrap">
+				<div class="achievements__item">
+					<div class="achievements__number counter">650</div>
+					<p class="achievements__text">Реализованных проектов</p>
+				</div><!-- achievements__item -->
+
+				<div class="achievements__item">
+					<div class="achievements__number counter">327</div>
+					<p class="achievements__text">Счастливых клиентов</p>
+				</div><!-- achievements__item -->
+
+				<div class="achievements__item">
+					<div class="achievements__number counter">982</div>
+					<p class="achievements__text">Километров кабеля</p>
+				</div><!-- achievements__item -->
+
+				<div class="achievements__item">
+					<div class="achievements__number counter">125</div>
+					<p class="achievements__text">Проданных панелей</p>
+				</div><!-- achievements__item -->
+
+			</div>
+		</div>
+		
+
+	</section>
+
+	<!-- ======================
+			Section Specialist
+	===========================-->
+		<section id="specialist" class="specialist">
+			<div class="container">
+				<div class="specialist__wrap">
+					<div class="owl-carousel" id="specialist__slider">
+
+						<div class="specialist__item"">
+							<img src="images/team1.jpg" alt="team1" class="specialist__img">
+							<!-- <div class="specialist__item--bg"></div> -->
+							<div class="specialist__infornation">
+								<p class="specialist__profession">Инженер</p>
+								<p class="specialist__name">Ольга Матвей</p>
+								<ul class="specialist__social">
+									<li><a href="#" class="specialist__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>							
+						</div><!-- specialist__item -->
+						<div class="specialist__item">
+							<img src="images/team2.jpg" alt="team2" class="specialist__img">
+							<div class="specialist__infornation">
+								<p class="specialist__profession">Монтажник</p>
+								<p class="specialist__name">През Андрей</p>
+								<ul class="specialist__social">
+									<li><a href="#" class="specialist__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>							
+						</div><!-- specialist__item -->
+						<div class="specialist__item">
+							<img src="images/team3.jpg" alt="team3" class="specialist__img">
+							<div class="specialist__infornation">
+								<p class="specialist__profession">Менеджер</p>
+								<p class="specialist__name">Марина Струк</p>
+								<ul class="specialist__social">
+									<li><a href="#" class="specialist__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>							
+						</div><!-- specialist__item -->
+						<div class="specialist__item">
+							<img src="images/team4.jpg" alt="team4" class="specialist__img">
+							<div class="specialist__infornation">
+								<p class="specialist__profession">Инженер</p>
+								<p class="specialist__name">Михаил Грет</p>
+								<ul class="specialist__social">
+									<li><a href="#" class="specialist__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>							
+						</div><!-- specialist__item -->
+						<div class="specialist__item">
+							<img src="images/team3.jpg" alt="team5" class="specialist__img">
+							<div class="specialist__infornation">
+								<p class="specialist__profession">Монтажник</p>
+								<p class="specialist__name">През Андрей</p>
+								<ul class="specialist__social">
+									<li><a href="#" class="specialist__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="specialist__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>							
+						</div><!-- specialist__item -->
+					</div>
+				</div>			
+
+			</div>
+		</section>
+
+	<!-- ======================
+			Section Reviews
+	===========================-->
+<section id="reviews" class="reviews">
+	<div class="container">
+		<div class="reviews__wrap">
+			<div class="reviews__slider">
+				<div class="reviews__slider--wrap">
+					<div class="slider-pro reviews__box" id="reviews-slider">
+						<div class="sp-slides reviews__slides">
+
+							<!-- Slide 1 -->
+							<div class="sp-slide reviews__slides-item">
+								<img class="sp-image reviews__img" src="images/reviews1.jpg">
+								<div class="sp-layer reviews__information" data-vertical="7%" data-horizontal="15%" data-show-delay="800">
+									<div class="reviews__icon">
+										<svg class="reviews__svg">
+											<use xlink:href="images/symbol/sprite.svg#svg--reviews1"></use>
+										</svg>
+									</div><!-- reviews__icon -->
+									<div class="reviews__info">
+										<span class="reviews__nomber">650</span>
+										<span class="reviews__title">Реализовано проектов</span>
+									</div>
+								</div><!-- reviews__information -->
+								<h4 class="sp-layer reviews__subtitle" class="sp-layer reviews__subtitle" data-show-transition="right" data-hide-transition="right" data-show-delay="1000"
+							data-hide-delay="70" data-vertical="92%">Ветровые генераторы</h2>
+							</div>
+
+							<!-- Slide 2 -->
+							<div class="sp-slide reviews__slides-item">
+								<img class="sp-image reviews__img" src="images/reviews2.jpg">
+								<div class="sp-layer reviews__information" data-vertical="7%" data-horizontal="15%" data-show-delay="800">
+									<div class="reviews__icon">
+										<svg class="reviews__svg">
+											<use xlink:href="images/symbol/sprite.svg#svg--reviews2"></use>
+										</svg>
+									</div><!-- reviews__icon -->
+									<div class="reviews__info">
+										<span class="reviews__nomber">327</span>
+										<span class="reviews__title">Счастливых клиентов</span>
+									</div>
+								</div><!-- reviews__information -->
+								<h4 class="sp-layer reviews__subtitle" class="sp-layer reviews__subtitle" data-show-transition="right" data-hide-transition="right" data-show-delay="1000"
+							data-hide-delay="70" data-vertical="92%">Альтернативная энергия</h2>
+							</div>
+
+							<!-- Slide 3 -->
+							<div class="sp-slide reviews__slides-item">
+								<img class="sp-image reviews__img" src="images/reviews3.jpg">
+								<div class="sp-layer reviews__information" data-vertical="7%" data-horizontal="15%" data-show-delay="800">
+									<div class="reviews__icon">
+										<svg class="reviews__svg">
+											<use xlink:href="images/symbol/sprite.svg#svg--reviews3"></use>
+										</svg>
+									</div><!-- reviews__icon -->
+									<div class="reviews__info">
+										<span class="reviews__nomber">125</span>
+										<span class="reviews__title">Проданных панелей</span>
+									</div>
+								</div><!-- reviews__information -->
+								<h4 class="sp-layer reviews__subtitle" data-show-transition="right" data-hide-transition="right" data-show-delay="1000"
+							data-hide-delay="70" data-vertical="92%">Солнечные панели</h2>
+							</div>				
+						
+						</div><!-- sp-slides reviews__slides -->
+					</div>
+				</div>
+			</div>
+			<div class="reviews__block">
+				<div class="reviews__inner">
+					<div class="reviews__header">
+						<article class="reviews__article">
+							<h2 class="reviews-block__title project__title">Отзывы</h2>
+							<p class="project__subtitle reviews__subtitle">Наш девиз - “Довольный клиент залог успешного бизнеса”</p>
+						</article>
+					</div><!-- /.reviews__header -->
+					<div class="reviews-block__slider">
+						<div class="owl-carousel" id="reviews-block__slider">
+
+							<div class="reviews__item">							
+								<p class="reviews__text">Профессионализм, оперативность, пунктуальность.Удивительная собранность и Внимание к "мелочам", к моему плотному рабочему графику. Подстройка под мои запросы и учёт пожеланий в полном объёме. Гибкость и коммуникабельность!</p>
+								<div class="reviews__person">
+									<div class="reviews__photo">
+										<img src="images/reviews-face1.jpg" alt="fase1" class="reviews_photo--img">
+									</div>
+									<span class="reviews__name">Артем Метчин</span>
+									<span class="reviews__profession">Программист</span>
+								</div>
+							</div><!-- reviews__item -->
+							
+							<div class="reviews__item">								
+								<p class="reviews__text">Профессионализм, оперативность, пунктуальность.Удивительная собранность и Внимание к "мелочам", к моему плотному рабочему графику.</p>
+								<div class="reviews__person">
+									<div class="reviews__photo">
+										<img src="images/reviews-face2.jpg" alt="fase1" class="reviews_photo--img">
+									</div>
+									<span class="reviews__name">Ирина Громыко</span>
+									<span class="reviews__profession">Менеджер</span>
+								</div>
+							</div><!-- reviews__item -->
+
+							<div class="reviews__item">								
+								<p class="reviews__text">Профессионализм, оперативность, пунктуальность.Удивительная собранность и Внимание к "мелочам", к моему плотному рабочему графику. Подстройка под мои запросы и учёт пожеланий в полном объёме. Гибкость и коммуникабельность! Огромная неожиданность.</p>
+								<div class="reviews__person">
+									<div class="reviews__photo">
+										<img src="images/reviews-face3.jpg" alt="fase1" class="reviews_photo--img">
+									</div>
+									<span class="reviews__name">Маргарита Шевцова</span>
+									<span class="reviews__profession">Директор компании</span>
+								</div>
+							</div><!-- reviews__item -->
+						
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+	<!-- ======================
+			Section Partners
+	===========================-->
+<section id="partners" class="partners">
+	<h2 class="partners__title">Наши партнеры</h2>
+	<div class="container">		
+		<div class="partners__wrap">
+			<div class="owl-carousel partners__slider" id="partners-slider">
+				<!-- slide1 -->
+				<div class="partners__item">
+					<img src="images/logo/logo1.png" alt="logo1">
+				</div>
+				<!-- slide1 -->
+				<div class="partners__item">
+					<img src="images/logo/logo2.png" alt="logo1">
+				</div>
+				<!-- slide1 -->
+				<div class="partners__item">
+					<img src="images/logo/logo3.png" alt="logo1">
+				</div>
+				<!-- slide1 -->
+				<div class="partners__item">
+					<img src="images/logo/logo4.png" alt="logo1">
+				</div>
+				<!-- slide1 -->
+				<div class="partners__item">
+					<img src="images/logo/logo5.png" alt="logo1">
+				</div>
+			</div>
+		</div><!-- partners__wrap -->
+	</div>
+	
+
+</section>
+
+<!-- ======================
+			Section News
+	===========================-->
+<section id="news" class="news">
+	<div class="container">
+		<div class="news__wrap">
+			<div class="news__top">
+				<h2 class="news__title project__title">Новости компании</h2>
+				<p class="news__subtitle project__subtitle">В этом разделе собраны статьи написанные нашими специалистами в области альтернативной энергии</p>				
+			</div><!-- news__top -->
+			<div class="news__bottom">
+
+				<div class="news__item">
+					<div class="news__img-wrap">
+						<img src="images/news1.jpg" alt="новость1" class="news__img">
+					</div>		
+					<div class="news__information">			
+						<article class="news__article">
+							<div class="news__author">
+								<span class="news__date">22 март, 2020</span>
+								<span class="news__point"></span>
+								<span class="news__name">Михаил Грет</span>
+							</div>
+							<h4 class="news__article-title">“Солнечная крыша” как вариант кровельного покрытия</h4>
+							<p class="news__article-description">Многие из загородных жителей, особенно в южных регионах, не прочь поставить на крышу своего коттеджа...</p>						
+						</article>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</div><!-- news__item -->
+
+				<div class="news__item">
+					<div class="news__img-wrap">
+						<img src="images/news2.jpg" alt="новость2" class="news__img">
+					</div>		
+					<div class="news__information">
+						<article class="news__article">
+							<div class="news__author">
+								<span class="news__date">08 июнь, 2020</span>
+								<span class="news__point"></span>
+								<span class="news__name">Марина Мечникова</span>
+							</div>
+							<h4 class="news__article-title">Альтернативная энергетика: перспективы развития</h4>
+							<p class="news__article-description">В данной статье рассмотрены перспективы развития альтернативных источников электрической энергии, в том числе энергии ветра, солнечной энергии, энергии воды...</p>						
+						</article>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</div><!-- news__item -->
+
+				<div class="news__item">
+					<div class="news__img-wrap">
+						<img src="images/news3.jpg" alt="новость3" class="news__img">
+					</div>		
+					<div class="news__information">
+						<article class="news__article">
+							<div class="news__author">
+								<span class="news__date">17 октябрь, 2020</span>
+								<span class="news__point"></span>
+								<span class="news__name">Михаил Грет</span>
+							</div>
+							<h4 class="news__article-title">15 фактов об альтернативной энергетике</h4>
+							<p class="news__article-description">Девяносто процентов энергии, потребляемой лампочкой, уходит на тепло и только...</p>						
+						</article>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</div><!-- news__item -->
+
+			</div><!-- news__bottom -->
+			<button class="news__btn">Показать ещё</button>
+		</div><!-- news__wrap -->
+
+	</div>
+</section>
+<!-- ======================
+			Section Footer
+	===========================-->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer__wrap">
+
+				<div class="footer__information">
+					<div class="header__logo">
+						<a href="#" class="header__link">
+							<img class="header__img" src="images/svg/header-logo.svg" alt="Логотип компании">
+							<p class="header__logo--title footer__logo">Solaris<span class="header__logo--subtitle">Энергия солнца</span></p>
+						</a>
+					</div><!-- header__logo -->
+
+					<p class="footer__text">Альтернативные источники энергии – это обычные природные явления, неисчерпаемые ресурсы, которые вырабатываются естественным образом. Такая энергия ещё называется регенеративной или «зелёной».</p>
+
+					<div class="footer__phone">+7 (499) 1111 22 99</div>
+					<div class="footer__text">sunenergy@gmail.com</div>
+					<div class="footer__text">247710, г.Москва <br> Кутузовский пр-т, д.132</div>
+				</div><!-- footer__information -->
+
+				<div class="footer__navigation">
+					<h4 class="footer__title">Категории</h4>
+					<nav>
+						<ul class="footer__nav">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Магазин</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Проекты</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div><!-- footer__navigation -->
+
+				<div class="footer__post">
+					<h4 class="footer__title">Последние статьи</h4>
+					<div class="footer__item-post">
+						<article class="footer__item">
+							<div class="footer__img-wrap">
+								<img src="images/footer-news1.jpg" alt="фото1" class="footer__item-img">
+							</div>							
+							<div class="footer__item-inform">
+								<p class="footer__item-text">“Солнечная крыша” как вариант кровельного покрытия</p>
+								<div class="footer__date">22 Март, 2019</div>
+							</div>					
+						</article>
+						<article class="footer__item">
+							<div class="footer__img-wrap">
+								<img src="images/footer-news2.jpg" alt="фото1" class="footer__item-img">
+							</div>
+							<div class="footer__item-inform">
+								<p class="footer__item-text">“Солнечная крыша” как вариант кровельного покрытия</p>
+								<div class="footer__date">22 Март, 2019</div>
+							</div>					
+						</article>
+					</div>
+				</div><!-- footer__post -->
+
+				<div class="footer__mailing">
+					<h4 class="footer__title">Рассылка</h4>
+					<div class="footer__mailing-wrap">
+						<p class="footer__mailing-text">Подпишись на рассылку и будь вкурсе последних новостей от компании Solaris</p>
+						<form action="#" class="footer__form">						
+							<input class="footer__input" type="text" name="mail" placeholder="Ваш E-mail...">					
+							<button class="footer__button">Отправить</button>
+						</form>
+					</div>
+					
+				</div><!-- footer__mailing -->
+
+			</div><!-- footer-wrap -->
+			<div class="footer__copyright">Copyright © 2019 All Rights Reserved.</div>			
+		</div>		
+	</footer>
+
+
+
+	<script src="libs/jquery/jquery-1.12.0.min.js"></script>	
+	<script src="libs/OwlCarousel/dist/owl.carousel.js"></script>	
+	<script src="libs/slider-pro/js/jquery.sliderPro.js"></script>	
+	<script src="libs/venobox/venobox.min.js"></script>	
+	<script src="libs/counterup/jquery.counterup.min.js"></script>	
+	<script src="libs/counterup/jquery.waypoints.min.js"></script>	
+		
+	<!-- <script src="libs/mobile-menu/"></script>	 -->
+	
+</body>
+</html>
