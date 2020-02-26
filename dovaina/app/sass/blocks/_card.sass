@@ -1,0 +1,104 @@
+
+
+.card
+  &__pictures
+    position: relative
+    display: block
+  &__new
+    position: absolute
+    right: 16px
+    top: 14px
+    font-size: 10px
+    font-weight: 700
+    color: $white
+    background: #50e550
+    line-height: 1
+    text-transform: uppercase
+    padding: 3px 9px
+    border-radius: 15px
+    width: 42px
+  &__links
+    width: 100%
+    position: absolute
+    right: 0
+    bottom: 18px
+    z-index: 9
+    padding-right: 15px
+    text-align: right    
+    a
+      display: inline-table
+      width: 36px
+      height: 36px      
+      border-radius: 60px
+      font-size: 18px
+      line-height: 18px
+      padding-top: 8px
+      overflow: hidden
+      color: $black
+      transition: all 400ms ease
+      text-align: center
+      transition: all 400ms
+      i
+        display: inline-block
+        color: $black
+       
+    &--heart     
+      background: $white
+      &:hover
+        background: $accent
+    &--bag
+      background: $white
+      padding-top: 8px      
+      span
+        position: absolute
+        right: 70px
+        top: 20px
+        font-size: 12px
+        letter-spacing: 1px
+        text-transform: uppercase
+        font-weight: bold        
+        opacity: 0        
+      &:hover
+        width: 140px
+        padding: 8px 18px
+        text-align: left
+        span
+          opacity: 1
+          top: 10px          
+          transition: all 400ms ease 300ms
+        // .product__links--hint
+        //   opacity: 1
+    &--hint
+      position: absolute
+      bottom: 35px
+      right: 5px
+      padding: 13px 16px
+      background: rgba(255,255,255, .8)
+      border-radius: 3px      
+      font-size: 14px
+      opacity: 0
+      transition: all 0.7s
+      &::after
+        content: ''
+        position: absolute
+        bottom: -10px
+        right: 18px
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 10px 10px 0 10px
+        border-color: rgba(255,255,255, .8) transparent transparent transparent      
+        
+  &__name
+    padding-top: 22px
+    height: 87px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    &--price      
+      font-weight: bold
+    &--subtitle
+      width: 140px
+      color: #111
+      font-size: 13px
+      line-height: 1.1
