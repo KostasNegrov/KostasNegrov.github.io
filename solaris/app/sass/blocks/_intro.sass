@@ -1,0 +1,39 @@
+
+
+.intro
+	height: 450px	
+	background-color: $white
+	position: relative
+	&__title
+		text-transform: uppercase
+		font-family: $auxiliary-font
+		font-size: em(12px)
+		color: $color-titile
+		background-color: $white
+		padding: 5px 10px
+		font-weight: bold
+		@media (min-width: 1440px)
+      @include dynamicText(110%, 15, 12, 1440px, 2880, 1440)
+	&__paragraph
+		font-family: $auxiliary-font
+		font-size: em(36px)
+		color: $color-titile
+		line-height: 1.3
+		font-weight: bold
+		@media (max-width: 1024px)
+      @include dynamicText(255%, 36, 20, 1024px, 2048, 1024)
+		&--big
+			text-transform: uppercase		
+	&__btn
+		text-transform: uppercase
+		font-family: $auxiliary-font
+		font-size: em(12px)
+		color: $white
+		padding: 15px 25px
+		@media (min-width: 1440px)
+      @include dynamicText(90%, 15, 12, 1440px, 2880, 1440)
+
+	
+	
+
+	

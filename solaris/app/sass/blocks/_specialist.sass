@@ -1,0 +1,118 @@
+
+
+.specialist
+  background-color: $color-bg2
+  &__wrap   
+    width: 100% 
+    padding-top: 80px
+    padding-bottom: 70px
+    .owl-item
+      height: 332px
+    .owl-nav
+      position: relative
+      top: -205px
+      width: 100%
+      .owl-prev,
+      .owl-next
+        position: absolute
+        display: block
+        width: 48px
+        height: 48px
+        background-color: rgba($white, .7)
+        transition: 300ms
+        &:hover
+          background-color: rgba($white, 1)
+          .fa
+            color: $accent
+        .fa
+          font-size: 28px        
+
+      .owl-next        
+        right: -2%
+      .owl-prev
+        left: -2%
+           
+
+
+    
+  &__item
+    background-size: cover
+    position: relative    
+    max-width: 263px
+    max-height: 314px
+    box-shadow: 0px 5px 13px -10px rgba(34,34,34,0.5)
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background-color: rgba(34,34,34,0.4)
+      transition: all 300ms ease      
+      display: none
+  &__img
+    max-width: 100%
+  &__infornation
+    position: absolute
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 80%
+    height: 116px
+    background-color: $white
+    top: 85%
+    left: 50%
+    transform: translateX(-50%)
+    border-bottom: 2px solid $accent
+    transition: all 400ms ease    
+    &:hover,          
+      top: 70%      
+  &__profession
+    text-transform: uppercase
+    font-size: em(14px)
+    font-weight: bold
+    color: $accent
+    // @media (max-width: 1140px)
+    //   @include dynamicText(110%, 18, 13, 1440px, 2880, 1440)
+  &__name
+    font-family: $auxiliary-font
+    font-size: em(16px)
+    font-weight: 800
+    color: $color-titile
+    margin-top: em(5px)
+  &__social
+    display: flex
+    justify-content: space-between
+    width: 100px
+    margin-top: em(15px)
+  &__link
+    font-size: em(16px)
+    color: $color-titile
+    &:hover
+      color: $accent
+      transition: all 300ms ease
+    
+@media (max-width: 1024px) 
+  .specialist   
+    &__wrap
+      max-width: 87%
+      margin: 0 auto 
+@media (max-width: 768px) 
+  .specialist   
+    &__wrap
+      max-width: 78%
+@media (max-width: 640px) 
+  .specialist   
+    &__wrap
+      max-width: 90%
+@media (max-width: 414px) 
+  .specialist   
+    &__wrap
+      max-width: 69%
+      
+
+   
+
+

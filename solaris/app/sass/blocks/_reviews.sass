@@ -1,0 +1,105 @@
+
+
+.reviews 
+  &__box
+    margin: 0    
+  &__wrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 100px 0
+    .sp-horizontal .sp-previous-arrow
+      display: none
+    .sp-horizontal .sp-arrows
+      top: 94%
+    .sp-horizontal .sp-arrow
+      position: relative
+      width: 35px
+      height: 35px
+      background-color: $accent
+      transition: all 300ms ease
+      border-radius: 50%        
+      &:hover
+        background-color: $color-hover
+      &:active
+        background-color: $color-active
+        
+    .sp-horizontal .sp-next-arrow
+      right: 0
+      margin-left: auto
+      &::after
+        top: 49%
+        width: 6%
+        left: 44%
+        background-color: $white
+      &::before
+        left: 44%
+        width: 6%
+        top: 11px
+        background-color: $white
+    .slider-pro h4.sp-layer
+      font-family: $auxiliary-font
+      font-weight: bold
+      font-size: em(18px)
+      color: $color-titile
+      margin-left: em(30px)       
+    .sp-image-container
+      background-size: cover      
+      max-height: 89% !important
+    .sp-image-container .sp-image
+      max-width: 100%
+      height: auto
+      margin-left: 0 !important
+  &__slider
+    flex: 30%    
+    &--wrap
+      background-color: $white
+      width: 100%
+      height: 500px
+      box-shadow: 0px 0px 29px -8px rgba(34,34,34,.25)    
+    // &--item
+    //   height: 595px 
+  &__block
+    flex: 60%
+  &__information
+    width: 200px
+    height: auto
+    background-color: $white
+    display: flex
+    justify-content: center
+    align-items: center
+    // position: relative
+    &::after
+      content: ' '
+      position: absolute
+      left: 42px
+      bottom: -20px
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 20px 17.5px 0 17.5px
+      border-color: $white transparent transparent transparent
+      
+      
+  &__icon
+    margin: 18px 16px 9px 0
+  &__svg
+    width: 54px
+    height: 54px
+    fill: $accent
+  &__nomber
+    display: block
+    font-family: $auxiliary-font
+    font-weight: bold
+    font-size: em(29px)
+    color: $color-titile
+  &__title
+    display: block
+    width: 100px
+    line-height: 1.2
+    
+@media (max-width: 768px)
+  .reviews   
+    &__slider
+      display: none  
+

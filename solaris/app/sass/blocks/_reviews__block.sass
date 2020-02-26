@@ -1,0 +1,91 @@
+
+
+.reviews
+  &__block
+    max-width: 100%
+    overflow: hidden
+  &__subtitle
+    margin-bottom: em(32px)
+
+    
+  &__header
+    max-width: 500px
+  &__inner
+    margin-left: 50px
+  &__item
+    display: flex
+    flex-direction: column
+    justify-content: space-between  
+    height: 320px
+  &__text    
+    font-family: $auxiliary-font
+    font-size: em(14px)
+    font-weight: normal
+    font-style: italic
+    line-height: 1.6
+    position: relative
+    margin-top: 43px
+    &::before
+      content: url('../images/dots.png')
+      position: absolute
+      top: -42px
+      left: 0    
+  &__dots
+    width: 37px
+    height: 43px
+    margin-bottom: 15px
+    img
+      width: 100%
+
+  // &__person
+  //   margin-top: em(55px)
+  &__photo
+    width: 80px
+    height: auto
+    border-radius: 50%
+    overflow: hidden
+    img
+      width: 100%      
+  &__name
+    display: block
+    text-transform: uppercase
+    color: $color-titile
+    font-family: $auxiliary-font
+    font-weight: bold
+    font-size: em(14px)
+    margin-top: 15px
+  &__profession
+    display: block
+    font-family: $default-font
+    font-size: em(14px)
+    color: $color-text
+
+
+.reviews-block__slider
+  .owl-carousel.owl-loaded
+    width: 100%
+  .owl-dots
+    position: relative
+    bottom: 30px
+    display: flex
+    justify-content: space-between
+    width: 55px
+    margin-left: auto
+  button.owl-dot
+    width: 13px
+    height: 13px
+    border-radius: 50%
+    border: 1px solid $color-titile
+    transition: all 200ms ease
+  button.owl-dot.active   
+    border: 1px solid transparent
+    background-color: $accent
+    width: 14px
+    height: 14px
+
+@media (max-width: 414px)
+  .reviews   
+    &__item
+      height: 430px 
+    &__inner
+      margin-left: 0

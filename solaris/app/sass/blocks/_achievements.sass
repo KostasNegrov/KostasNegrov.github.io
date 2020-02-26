@@ -1,0 +1,74 @@
+
+
+.achievements
+  background-color: $accent
+  &__title
+    @include visually-hidden()
+  &__wrap
+    display: flex        
+    justify-content: space-between
+    align-items: center
+    padding: em(70px) 0
+  &__item
+    display: flex
+    align-items: flex-end
+    justify-content: flex-start
+    line-height: 1
+  &__number
+    font-family: $auxiliary-font
+    font-size: em(60px)
+    font-weight: bold
+    line-height: 0.8
+    color: $white
+    position: relative
+    @media (max-width: 1366px)
+      @include dynamicText(400%, 60, 20, 1366px, 2732, 1366)
+    &::before
+      content: ' '
+      position: absolute
+      top: 0
+      left: em(30px)
+      width: 3px
+      height: 100%
+      background-color: $white    
+  &__text
+    text-transform: uppercase
+    font-family: $default-font
+    font-size: em(14px)
+    font-weight: bold
+    line-height: 1
+    color: $white
+    max-width: 50%
+    margin-left: em(40px)
+    @media (max-width: 992px)
+      @include dynamicText(98%, 14, 10, 992px, 1984, 992)
+         
+@media (max-width: 768px)    
+  .achievements
+    &__wrap
+      // flex-wrap: wrap
+      justify-content: space-around
+      padding: em(35px) 0 em(50px) 0
+    &__item
+      flex-direction: column
+      justify-content: space-between
+      align-items: flex-start
+    &__number        
+      &::before
+        display: none
+    &__text
+      margin-top: 15px
+      margin-left: 0
+@media (max-width: 414px)   
+  .achievements
+    &__wrap
+      display: grid
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto))
+    &__item
+      margin-top: 35px
+   
+         
+
+
+      
+    

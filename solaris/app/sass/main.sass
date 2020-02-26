@@ -1,0 +1,139 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+@import "normalize"
+@import "_mixins/mixins"
+@import "_mixins/mixinss"
+
+
+@import "blocks/header__top"
+@import "blocks/header__bottom"
+@import "blocks/menu"
+@import "blocks/intro"
+@import "blocks/advatages"
+@import "blocks/story"
+@import "blocks/services"
+@import "blocks/team"
+@import "blocks/play-btn"
+@import "blocks/achievements"
+@import "blocks/specialist"
+@import "blocks/reviews"
+@import "blocks/reviews__block"
+@import "blocks/partners"
+@import "blocks/news"
+@import "blocks/footer"
+@import "blocks/preloader"
+
+
+
+
+
+*,
+::before,
+::after 
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+	
+body
+	font-family: $default-font
+	font-size: 14px
+	line-height: 1.4
+	margin: 0
+	padding: 0
+	color: $color-text
+	background-color: $white
+ 
+	// @media (min-width: 1440px)
+	// 	@include dynamicText(103%, 18, 13, 1440px, 2880, 1440)
+
+.container
+	max-width: 1140px
+	min-width: 320px
+	padding: 0 15px 
+	margin: 0 auto 
+h1, h2
+	// text-align: center
+	margin: 0 auto
+	font-size: 36px
+	font-family: $auxiliary-font
+	@media (min-width: 1440px)
+		@include dynamicText(220%, 18, 13, 1440px, 2880, 1440)
+
+li
+	list-style-type: none
+
+a
+	text-decoration: none
+
+input, button
+	display: block
+button, input, optgroup, select, textarea
+  line-height: 1.05
+
+.btn
+	border: none
+	background-color: $accent
+	color: $white	
+	transition: background-color 200ms ease
+	cursor: pointer
+	font-weight: bold
+	&:hover
+		background-color: $color-hover		
+	&:active
+		background-color: $color-active
+		
+.project__title
+	text-transform: uppercase
+	font-size: em(13px)
+	color: $accent
+	margin-bottom: em(10px)
+
+.project__subtitle
+	font-family: $auxiliary-font
+	color: $color-titile
+	font-size: em(28px)
+	font-weight: bold
+	line-height: 1.2
+	margin-bottom: em(30px)
+	@media (max-width: 1440px)
+		@include dynamicText(200%, 28, 18, 1440px, 2880, 1440)
+	
+.project__link	
+	display: block
+	text-transform: uppercase
+	font-family: $auxiliary-font
+	color: $color-titile
+	font-size: em(12px)
+	font-weight: bold
+	line-height: 1.2
+	position: relative
+	margin: em(45px) 0 em(35px)
+	&::after
+		content: ' '
+		position: absolute
+		top: 18px
+		left: 0
+		width: 0%
+		height: 2px
+		transition: all 400ms ease	
+	&:hover
+		&::after		
+			width: 100%		
+			background-color: $accent		
+		
+		
+
+
+
+
+
+
+	
+
+	
+ 
+	
+
+
+

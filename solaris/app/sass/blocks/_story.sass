@@ -1,0 +1,90 @@
+
+
+.story
+  &__wrap
+    display: flex
+    align-items: center
+    margin: em(100px) 0
+  &__left
+    margin-top: 30px
+    flex: 50%
+  &__right
+    flex: 50%
+  &__text
+    line-height: 1.8
+    padding-right: 55px
+  &__list
+    margin-bottom: 35px
+  &__item
+    margin: 15px 0 
+    position: relative
+    padding-left: 20px
+    &::after      
+      content: url(../images/icon-ok.png)
+      position: absolute
+      width: 7px
+      height: 7px
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+     
+  &__btn  
+    @include btn-o() 
+    margin-bottom: 50px   
+    @media (min-width: 1440px)
+      @include dynamicText(90%, 15, 12, 1440px, 2880, 1440)
+  &__right
+    max-width: 530px  
+    height: 530px
+    position: relative
+    background: url(../images/history.jpg) no-repeat center
+    background-size: cover
+  &__decorative
+    background-color: $accent
+    width: 37%
+    position: absolute
+    top: 235px
+    left: -60px    
+  &__img
+    max-width: 60px
+    height: 78px
+    margin: 0 auto
+  &__svg
+    width: 100%
+    fill: $white
+  &__year
+    font-family: $auxiliary-font
+    font-size: em(22px)
+    font-weight: 800
+    color: $white  
+    margin: 50px 0 30px 35px
+  &__experience
+    display: block    
+    font-size: em(10px)
+    font-weight: normal
+    margin-top: 10px
+
+@media (max-width: 768px)   
+  .story
+    &__wrap    
+      margin-top: em(30px)  
+    &__left      
+      flex: 80%  
+    &__right  
+      flex: 20% 
+      background: none
+    &__decorative     
+      width: 185px      
+      top: 240px      
+      right: 0
+@media (max-width: 414px)   
+  .story  
+    &__text
+      padding-right: 0  
+    &__left      
+      flex: 100%     
+    &__decorative     
+      display: none
+    
+

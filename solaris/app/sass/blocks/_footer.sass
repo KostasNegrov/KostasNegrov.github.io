@@ -1,0 +1,142 @@
+
+
+.footer
+  background-color: $color-titile
+  &__logo
+    color: $white
+   
+  &__wrap
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: flex-start
+    padding: 50px 0 25px 0
+    border-bottom: 1px solid #333232
+
+  &__information
+    flex: 25%
+  &__text
+    color: $color-line
+    padding-top: 15px
+  &__phone
+    color: $color-line
+    font-size: em(22px)
+    margin-top: 25px
+    font-weight: bold
+  &__img-wrap
+    width: 96px
+    background-size: cover    
+    img
+      max-width: 100%
+  &__title    
+    text-transform: uppercase
+    color: $color-bg
+    font-family: $auxiliary-font
+    font-size: em(16px)
+    position: relative
+    &:before
+      content: " "
+      display: inline-block
+      position: absolute
+      width: 50px
+      height: 2px
+      background-color: $accent
+      top: 30px
+      left: 0     
+      z-index: 100
+  &__navigation
+    flex: 10%
+    margin-left: 15px
+  &__nav
+    display: flex
+    flex-direction: column
+    justify-content: space-between    
+    margin-top: 35px
+    height: 210px
+    li 
+      position: relative     
+      &:hover
+        a       
+          color: $accent
+          &::before
+            left: 5px      
+      a
+        color: $color-line
+        margin-left: 20px        
+        transition: all 200ms
+        &::before
+          content: "\f105"       
+          font-family: FontAwesome  
+          position: absolute
+          width: 30px
+          height: 10px
+          transition: all 200ms
+          top: 0
+          left: 0
+  &__post
+    flex: 22%
+    .footer__item:nth-child(2)
+      margin-top: 5px
+  &__item-post
+    margin-top: 40px
+  &__item
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+  &__item-inform
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    width: 170px
+    height: 100px
+  &__item-text
+    color: $color-line
+    margin-left: 15px
+  &__date
+    margin-left: 15px
+    color: $accent
+
+  &__mailing
+    flex: 23%
+    margin-left: 30px
+  &__mailing-wrap
+    margin-top: 39px
+  &__mailing-wrap * + *
+    margin-top: 20px
+  &__mailing-text
+     color: $color-line
+  &__button   
+    @include btn-o() 
+    border: none
+    background-color: $accent
+    color: $white
+    width: 100%
+  &__input
+    width: 100%
+    padding: 15px 25px
+    background-color: transparent
+    color: $color-text
+    font-style: italic 
+    border: 1px solid $color-text
+  &__copyright
+    width: 100%
+    text-align: center
+    padding: 22px 0
+    
+@media (max-width: 768px)    
+  .footer   
+    &__wrap
+      flex-direction: column
+    &__information
+      margin-top: 35px
+    &__navigation
+      margin-top: 35px
+      margin-left: 0
+    &__post
+      margin-top: 35px
+    &__mailing
+      margin-top: 35px
+      margin-left: 0
+
+      
+    

@@ -1,0 +1,98 @@
+
+
+.news
+  &__wrap
+    margin: 65px 0
+  &__top
+    text-align: center  
+  &__subtitle
+    max-width: 80%  
+    margin: 0 auto
+  &__bottom
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+  &__item
+    flex: 1
+    margin-left: 25px
+  .news__item:nth-child(1)
+    margin-left: 0
+  &__img-wrap
+    max-width: 100%
+    // height: auto
+    background-size: cover
+  &__img
+    max-width: 100%  
+  &__information
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: em(210px)
+  &__article
+    margin-top: em(15px)
+  &__author
+    display: flex
+    align-items: center
+    text-transform: uppercase
+    color: $accent
+    font-size: em(11px)
+    font-family: $auxiliary-font
+    font-weight: bold
+  &__author * + *
+    margin-left: 10px
+  &__point    
+    display: inline-block
+    width: 5px
+    height: 5px
+    border-radius: 50%
+    background-color: $accent
+  &__article-title
+    font-family: $auxiliary-font
+    font-size: em(18px)
+    font-weight: bold
+    color: $color-titile
+    line-height: 1.1
+    margin-top: em(5px) 
+    // @media (max-width: 1024px)
+    //   @include dynamicText(255%, 36, 20, 1024px, 2048, 1024)   
+  &__article-description
+    font-size: em(13px)
+    margin-top: em(20px)
+  &__link       
+    width: 90px
+    @include project-link()
+  &__btn
+    display: block
+    margin: 65px  auto     
+    @include btn-o()
+
+
+@media (max-width: 992px)
+  .news  
+    &__information    
+      height: em(260px)
+@media (max-width: 768px)
+  .news  
+    &__bottom   
+      .news__item:nth-child(3)
+        display: none   
+@media (max-width: 414px)
+  .news  
+    &__bottom   
+      .news__item:nth-child(2)
+        display: none
+    &__top
+      text-align: left
+    &__subtitle
+      margin-left: 0
+      margin-right: 0
+    &__btn
+      margin-left: 0
+    &__information    
+      height: em(190px)
+  
+   
+    
+        
+
+    

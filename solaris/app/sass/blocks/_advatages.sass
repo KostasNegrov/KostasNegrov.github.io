@@ -1,0 +1,73 @@
+
+.advatages
+  position: relative
+  top: 0
+  left: 50%
+  transform: translateX(-50%)
+  width: 100%
+  z-index: 100  
+  &__title
+    @include visually-hidden()
+  &__wrap    
+    background-color: $white  
+    box-shadow: 0px 5px 13px -10px rgba(0,0,0,0.7)
+  &__subtitle
+    font-family: $auxiliary-font
+    // font-size: em(16px)
+    color: $color-titile
+    font-weight: bold
+    @media (min-width: 768px)
+      @include dynamicText(115%, 18, 13, 1440px, 2880, 1440)
+  &__text
+    @media (max-width: 768px)
+      @include dynamicText(105%, 18, 13, 1440px, 2880, 1440)
+  &__list
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 40px
+    border-bottom: 2px solid $accent    
+  &__item
+    display: flex
+    align-items: center
+  &__img
+    position: relative
+    background-color: $color-titile
+    width: 72px
+    height: 72px
+    border-radius: 50%
+    margin-right: 17px
+  &__svg
+    position: absolute
+    left: 50%
+    top: 50%
+    height: 30px
+    fill: $white
+    transform: translate(-50%, -50%)    
+    z-index: 997
+
+@media (max-width: 768px) 
+  .advatages
+    &__img
+      background-color: transparent
+    &__svg
+      height: 40px
+      fill: $color-titile
+@media (max-width: 640px) 
+  .advatages
+    &__img
+      background-color: transparent
+    &__svg
+      height: 40px
+      fill: $color-titile
+    &__list      
+      flex-direction: column      
+      align-items: flex-start
+      justify-content: space-around
+    &__wrap 
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      max-width: 45vh
+
+ 
