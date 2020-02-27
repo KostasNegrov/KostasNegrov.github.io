@@ -1,0 +1,72 @@
+$circle-bg: #363636
+$icon-bg: #636363
+$color-text: #555555
+
+.advatages
+  &__title
+    @include visually-hidden
+  &__list
+    list-style-type: none
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(210px, auto))
+    grid-column-gap: 30px
+    padding: 35px 15px 20px 15px
+  &__item
+    margin: 15px 0
+    &:hover
+      .advatages__img      
+        border-color: $second
+      .advatages__svg
+        fill: $second
+      .advatages__subtitle
+        color: $second
+      .advatages__text
+        color: $white     
+
+  &__img
+    border: 1px solid $circle-bg
+    border-radius: 50%
+    position: relative
+    width: 104px
+    height: 104px
+    transition: all 500ms
+  &__svg
+    position: absolute
+    left: 50%
+    top: 50%
+    height: 40px
+    fill: $icon-bg
+    transform: translate(-50%, -50%)
+    transition: all 500ms
+    z-index: 997
+
+  &__subtitle
+    font-size: 18px
+    color: $icon-bg
+    font-weight: 800
+    text-transform: uppercase
+    line-height: 1.111
+    margin: 20px 0
+    transition: all 500ms
+  &__text
+    font-size: 14px
+    color: $color-text
+    font-family: $fonts-dop
+    margin: 20px 0
+    transition: all 500ms
+    &:after
+      content: ' '
+      background-color: $second
+      width: 70px
+      height: 2px
+      display: block
+      margin-top: 25px
+
+@media (max-width: 480px)
+  .advatages__list
+    padding-top: 20px
+    padding-bottom: 15px
+  .advatages__item
+    text-align: center
+  .advatages__img
+    margin: 0 auto

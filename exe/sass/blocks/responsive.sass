@@ -1,0 +1,65 @@
+$lineColor: #2f2f2f
+$responsiveText: #464646
+$listColor: #959595
+
+.responsive
+  &__wrap 
+    padding-top: 100px
+    padding-bottom: 100px
+    background: url('../img/bg-two.png') left bottom no-repeat
+  &__info
+    max-width: 360px
+    margin-left: auto
+  &__title
+    font-size: 30px
+    font-weight: 700
+    text-transform: uppercase
+    color: $white
+    margin: 25px 0
+    position: relative
+    &:before
+      content: ' '
+      background-color: $lineColor
+      position: absolute
+      width: 70px
+      height: 2px
+      left: 0
+      top: -25px
+  &__text
+    font-size: 14px
+    color: $responsiveText
+    margin: 20px 0
+    line-height: 1.4
+  &__list
+    margin: 20px 0
+  &__button
+    @include button($thirty)
+      margin-top: 50px
+.list
+  font-size: 14px
+  color: $listColor
+  list-style: none
+  font-family: $fonts-dop
+  &__element
+    margin: 15px 0
+    padding-left: 55px
+    position: relative
+    &::before
+      content: ' '
+      position: absolute
+      background-color: $second
+      width: 8px
+      height: 2px
+      left: 20px
+      top: 50%
+      transform: translateY(-50%)
+ 
+@media (max-width: 768px)
+  .responsive__wrap
+    background-image: none
+    padding-top: 75px
+    padding-bottom: 75px
+  .responsive__info
+    margin-left: 0
+    max-width: 100%
+

@@ -1,0 +1,66 @@
+
+
+.progress
+  &__name
+    font-size: 14px
+    color: $white
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 1.5
+    margin: 10px 0
+  &__element
+    border: 1px solid rgba(255, 255, 255, .25)
+    border-radius: 3px
+    padding: 2px
+  &__line
+    background-color: $white
+    width: 0
+    height: 4px
+    position: relative
+  &__tooltip
+    background-color: $primary
+    position: absolute
+    right: -15px
+    top: -32px
+    width: 31px    
+    font-size: 11px
+    font-family: $fonts-dop
+    color: $white
+    font-weight: bold
+    line-height: 18px
+    text-align: center
+    border-radius: 3px
+    display: none
+    &:before
+      content: ' '
+      border: 4px solid transparent
+      border-top: 4px solid $primary
+      position: absolute
+      bottom: -12px
+      left: 50%
+      transform: translate(-50%, -50%)
+
+@media (max-width: 980px)
+  .skills__left
+    margin-right: 30px
+
+@media (max-width: 768px)
+  .skills__wrap
+    flex-direction: column
+  .skills__left
+    margin-right: 0
+    margin-bottom: 25px
+    flex-basis: auto
+
+@media (max-width: 480px)
+  .skills__wrap
+    padding-top: 40px
+    padding-bottom: 40px
+  
+
+
+
+
+
+
+
