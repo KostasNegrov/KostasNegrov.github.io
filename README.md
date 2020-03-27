@@ -30,7 +30,8 @@
 * верстка с помощью Flexbox:
 * подключение Owl Carousel и Slider-pro;
 * работа с SVG графикой;
-* video на сайте;
+* video на сайте; <br><br>
+
 [Посмотреть](https://kostasnegrov.github.io/solaris/build "Описание")
 
 ---
