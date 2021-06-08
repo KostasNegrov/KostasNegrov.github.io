@@ -1,6 +1,6 @@
 ### Один из первых моих проектов
 
-![mountains](exe/img/exe-github.png "privew")                    
+![mountains](https://github.com/KostasNegrov/Tutorials/blob/main/menu/queen-menu/dist/images/queen-menu.gif "privew")                    
 <br><br>
 [Посмотреть](https://github.com/KostasNegrov/Tutorials/tree/main/menu/queen-menu/dist "Описание")
 
