@@ -1,6 +1,14 @@
 ### Один из первых моих проектов
 
 ![mountains](exe/img/exe-github.png "privew")                    
+<br><br>
+[Посмотреть](https://github.com/KostasNegrov/Tutorials/tree/main/menu/queen-menu/dist "Описание")
+
+---
+
+### Один из первых моих проектов
+
+![mountains](exe/img/exe-github.png "privew")                    
 Данная работа была сделана совместно с обучающим курсом от команды WebForMySelf "Технология CSS Grid. Руководство по адаптивной верстке". Мною была поставлена задача повторить и вникнуть в основы Grid верстки, основы работы с SVG графикой, освоить навыки разметки страницы. Задача была успешно выполнена.<br><br>
 [Посмотреть](https://kostasnegrov.github.io/exe/build "Описание")
 
