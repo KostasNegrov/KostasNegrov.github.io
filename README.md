@@ -2,7 +2,7 @@
 ## Tutotials
   #### menu 
 ***
-  [Queen-menu](https://KostasNegrov.github.io/queen-menu "Описание") интересное анимированное меню с выезжающим контентом слева и справа. 
+  [Queen-menu](https://KostasNegrov.github.io/queen-menu "Описание"): интересное анимированное меню с выезжающим контентом слева и справа. 
     
 ***
 
