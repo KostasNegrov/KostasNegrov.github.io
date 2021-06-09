@@ -1,9 +1,7 @@
 
-### Queen-menu
-
-![mountains](queen-menu/images/queen-menu.gif width: 50px, height: 50px "privew")                    
-<br><br>
-[Посмотреть](https://KostasNegrov.github.io/queen-menu "Описание")
+#### Tutotials
+  ##menu 
+    [Queen-menu](https://KostasNegrov.github.io/queen-menu "Описание")
 
 ---
 
