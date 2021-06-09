@@ -11,6 +11,11 @@
 [blue_rocket_form](https://KostasNegrov.github.io/blue_rocket_form "Описание"): синяя форма с переваливающимися шарами туда-сюда:) 
     
 ---
+## GSAP
+
+[real_estate_theme](https://KostasNegrov.github.io/real_estate_theme "Описание"): анимации при scrollTrigger на GSAP. Исчезающие заголовки и паралака изображений. 
+    
+---
 
 ### Один из первых моих проектов
 
