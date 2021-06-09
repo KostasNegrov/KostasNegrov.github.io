@@ -1,6 +1,7 @@
 
 ## Tutotials
   #### menu 
+  Интересное анимированное меню с выезжающим контентом слева и справа. 
   [Queen-menu](https://KostasNegrov.github.io/queen-menu "Описание")
     
 
