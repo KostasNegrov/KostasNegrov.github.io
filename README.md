@@ -13,7 +13,7 @@
 ---
 ## GSAP
 
-[real_estate_theme](https://KostasNegrov.github.io/real_estate_theme "Описание"): анимации при scrollTrigger на GSAP. Исчезающие заголовки и паралака изображений. 
+[real_estate_theme](https://KostasNegrov.github.io/real_estate_theme "Описание"): анимации при scrollTrigger на GSAP. Исчезающие заголовки и паралакс изображений. 
     
 ---
 
