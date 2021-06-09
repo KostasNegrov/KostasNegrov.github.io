@@ -1,10 +1,3 @@
-### Один из первых моих проектов
-
-![mountains](https://github.com/KostasNegrov/Tutorials/blob/main/menu/queen-menu/dist/images/queen-menu.gif "privew")                    
-<br><br>
-[Посмотреть](https://github.com/KostasNegrov/Tutorials/tree/main/menu/queen-menu/dist "Описание")
-
----
 
 ### Один из первых моих проектов
 
