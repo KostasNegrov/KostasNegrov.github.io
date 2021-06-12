@@ -17,6 +17,12 @@
     
 ---
 
+## parallax effects
+
+[parallax_JS_plugin](https://KostasNegrov.github.io/parallax_JS_plugin "Описание"): летающий ангел в облаках с паралакс эфектом. 
+    
+---
+
 ### Один из первых моих проектов
 
 ![mountains](exe/img/exe-github.png "privew")
