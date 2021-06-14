@@ -14,6 +14,7 @@
 ## GSAP
 
 [real_estate_theme](https://KostasNegrov.github.io/real_estate_theme "Описание"): анимации при scrollTrigger на GSAP. Исчезающие заголовки и паралакс изображений. 
+[hipsder_shop_clothes](https://KostasNegrov.github.io/hipsder_shop_clothes "Описание"): первый экран магазина одежды с анимацией на GSAP 
     
 ---
 
