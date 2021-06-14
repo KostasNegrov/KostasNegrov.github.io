@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Work Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-regular.eot");
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans/work-sans-v5-latin-regular.woff") format("woff"), url("../fonts/Work_Sans/work-sans-v5-latin-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-300.eot");
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans/work-sans-v5-latin-300.woff") format("woff"), url("../fonts/Work_Sans/work-sans-v5-latin-300.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-500.eot");
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans/work-sans-v5-latin-500.woff") format("woff"), url("../fonts/Work_Sans/work-sans-v5-latin-500.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-600.eot");
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans/work-sans-v5-latin-600.woff") format("woff"), url("../fonts/Work_Sans/work-sans-v5-latin-600.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-700.eot");
+  src: url("../fonts/Work_Sans/work-sans-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans/work-sans-v5-latin-700.woff") format("woff"), url("../fonts/Work_Sans/work-sans-v5-latin-700.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/PT_Sans/pt-sans-v11-latin-regular.eot");
+  src: url("../fonts/PT_Sans/pt-sans-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans/pt-sans-v11-latin-regular.woff") format("woff"), url("../fonts/PT_Sans/pt-sans-v11-latin-regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/PT_Sans/pt-sans-v11-latin-700.eot");
+  src: url("../fonts/PT_Sans/pt-sans-v11-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/PT_Sans/pt-sans-v11-latin-700.woff") format("woff"), url("../fonts/PT_Sans/pt-sans-v11-latin-700.ttf") format("truetype"); }
+
+/* Размер шрифта будет увеличиваться в зависимости от размера экрана */
+/** Ширина контейнера **/
+/* Заголовок h2 не будет отображаться в блоке section */
+/* как подключить миксин: @include visually-hidden() */
+/*Переводит px в rem  */
+/* font-size: rem(24px);
+   line-height: rem(28px); */
+/*Переводит px в em  */
+/* font-size: em(24px);
+   line-height: em(28px); */
+/*Переводит px в vw  */
+/* как подключить миксин: @include visually-hidden() */
+/* как подключить миксин: @include visually-hidden() */
+.header {
+  background-color: #503846;
+  padding: 0 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px; }
+  .header .logo {
+    -webkit-box-flex: 120px;
+        -ms-flex: 120px 0 0px;
+            flex: 120px 0 0; }
+    .header .logo img {
+      width: 100%; }
+
+.menu {
+  -ms-flex-preferred-size: 42%;
+      flex-basis: 42%; }
+  .menu .menu-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .menu .menu-nav a {
+      color: #fff;
+      -webkit-transition: all 300ms ease;
+      transition: all 300ms ease; }
+      .menu .menu-nav a:hover {
+        color: #eb3939; }
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-top: -75px;
+  overflow: hidden; }
+  .content .img {
+    position: relative;
+    overflow: hidden; }
+    .content .img img {
+      width: 100%;
+      height: auto; }
+  .content .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 10;
+    opacity: 1; }
+  .content .text {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center; }
+    .content .text h1 {
+      font-size: 82px;
+      text-transform: uppercase;
+      font-family: Butler;
+      font-weight: 300;
+      margin-bottom: 15px; }
+    .content .text h5 {
+      font-size: 28px;
+      letter-spacing: 20px;
+      text-transform: uppercase;
+      font-weight: 100; }
+
+.common {
+  width: 50%;
+  height: 100vh;
+  position: relative; }
+  .common:hover .btn a {
+    opacity: 1; }
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+  .btn a {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 25px 60px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0;
+    -webkit-transition: all ease 500ms;
+    transition: all ease 500ms; }
+    .btn a:hover {
+      background-color: #fff;
+      color: #000; }
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
