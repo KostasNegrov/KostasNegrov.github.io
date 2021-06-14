@@ -26,12 +26,12 @@
 ## site
 
 [exe](https://KostasNegrov.github.io/exe/build "Описание"): интересный сайт на гридах<br>
+[programmer portfolio site](https://kostasnegrov.github.io/resumeNA "Описание"): сайт портфолио програмиста.<br>
+[solaris](https://kostasnegrov.github.io/solaris/build "Описание"): корпоративный сайт компании по установке солнечных батарей Solaris.<br>
+[dovaina](https://kostasnegrov.github.io/dovaina/build "Описание"): Интернет магазин молодежной одежды Dovaina<br>
     
 ---
-### Один из первых моих проектов
 
-![mountains](exe/img/exe-github.png "privew")
-[Посмотреть](https://kostasnegrov.github.io/exe/build "Описание")
 
 ---
 
@@ -46,7 +46,7 @@
 * секция "мои навыки" написал скрипт для tabs;
 * подключил Яндекс карту.<br><br>
 
-[Посмотреть](https://kostasnegrov.github.io/resumeNA/ "Описание")
+[Посмотреть](https://kostasnegrov.github.io/ "Описание")
 
 ---
 
