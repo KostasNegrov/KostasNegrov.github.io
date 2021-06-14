@@ -23,7 +23,11 @@
 [parallax_JS_plugin](https://KostasNegrov.github.io/parallax_JS_plugin "Описание"): летающий ангел в облаках с паралакс эфектом. 
     
 ---
+## site
 
+[exe](https://KostasNegrov.github.io/exe/build "Описание"): интересный сайт на гридах<br>
+    
+---
 ### Один из первых моих проектов
 
 ![mountains](exe/img/exe-github.png "privew")
